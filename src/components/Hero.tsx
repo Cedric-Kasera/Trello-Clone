@@ -10,10 +10,31 @@ function Hero() {
         {
           Name: "BCS 212",
           Likes: 10,
-          Comments: ["Excellent"],
+          Comments: ["Excellent","Good","Best", "Amazing"],
+        },
+        {
+          Name: "BCS 217",
+          Likes: 7,
+          Comments: ["Excellent","Good", "Amazing"],
         },
       ],
+      
     },
+    {
+      Title: "Exam",
+      Items: [
+        {
+          Name: "BCS 212",
+          Likes: 10,
+          Comments: ["Excellent", "Amazing"],
+        },
+        {
+          Name: "BCS 217",
+          Likes: 7,
+          Comments: ["Excellent","Good", "Amazing","Superb","Very Cool","Best"],
+        },
+      ],
+    }
   ]);
 
   console.log(list);

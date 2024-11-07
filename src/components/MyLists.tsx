@@ -20,7 +20,7 @@ function MyLists(content: Lists) {
               <p>{first.Items[0].Name}</p>
               <div className="flex felx-row justify-start items-center gap-3">
                 <div className="bg-blue-500 flex flex-row gap-2"> <AiOutlineLike />{first.Items[0].Likes} </div>
-                <div className="bg-blue-500 flex flex-row gap-2"> <GoComment /> </div>
+                <div className="bg-blue-500 flex flex-row gap-2"> <GoComment />{first.Items[0].Comments.length} </div>
               </div>
             </div>
         </div>
