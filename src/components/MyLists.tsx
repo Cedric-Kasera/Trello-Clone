@@ -4,10 +4,11 @@ import { Lists } from "../Constants/Types";
 function MyLists(content: Lists) {
   const first = content[0];
 
+
   return (
     <div>
       <div className="flex-1 flex-wrap justify-start text-gray-800">
-        <div></div>
+        <div className="bg-white"></div>
       </div>
     </div>
   );
