@@ -1,11 +1,11 @@
 type Items = {
     Name: string
     Likes: number
-    Comments: [string]
+    Comments: string[]
 }
 type List = {
     Title: string
-    Items: [Items]
+    Items: Items[]
 }
 
-export type Lists = [List]
+export type Lists = List[]
