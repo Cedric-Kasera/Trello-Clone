@@ -8,7 +8,7 @@ function MyLists(content: Lists) {
   return (
     <div>
       <div className="flex-1 flex-wrap justify-start text-gray-800">
-        <div className="bg-white"></div>
+        <div className="bg-white text-black">{first.Title}</div>
       </div>
     </div>
   );
