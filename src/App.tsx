@@ -1,15 +1,14 @@
-import React from "react"
-import NavBar from "./components/NavBar"
-import Hero from "./components/Hero"
+import React from "react";
+import NavBar from "./components/NavBar";
+import Hero from "./components/Hero";
 
 function App() {
-  
   return (
     <div className="bg-blue-500 text-white min-h-screen w-screen">
-    <NavBar />
-    <Hero/>
+      <NavBar />
+      <Hero />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
